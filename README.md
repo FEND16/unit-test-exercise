@@ -1,18 +1,22 @@
 # unit-test-exercise
 
-Write unit tests for this todo-application. The code is located inside of `src` and you are going to write all your tests in `__tests__/todo.js`. Feel free to implement more functionality and test that functionality.
+Write unit tests for this todo application. The code is located inside of `src` and you are going to write all your tests in `__tests__/todo.js`. Feel free to implement more functionality and test that functionality.
+
+**It can be a good idea to list all use cases (and potential errors) before starting**
+* _I should be able to add a todo_
+* _I should be able to remove a todo_
+* _I should be able to remove all todos_
+* _I should be able to edit a todo_
+* _I should be **not** be able to edit a nonexisting todo_
+
+Then make your **assertions** based on those use cases.
 
 ## Installation
 
 ```bash
-git clone https://
+git clone https://github.com/FEND16/unit-test-exercise
 cd unit-test-exercise
-yarn
-```
-```bash
-git clone https://
-cd unit-test-exercise
-npm install
+yarn #or npm i
 ```
 
 ## Run tests
